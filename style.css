@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
   padding: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -93,21 +93,18 @@ body {
 }
 
 .welcome {
-  font-family: Poppins;
-  font-style: Bold;
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
   font-size: 48px;
   line-height: 60px;
-  line-height: 83%;
   text-align: left;
-  vertical-align: center;
   letter-spacing: 0.37px;
   color: #091e42;
-  fill: solid #091E42;
   padding-bottom: 1.2rem;
 }
 
 .introduction {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   max-width: 600px;
@@ -126,7 +123,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #6070ff;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 ul {
