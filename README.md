@@ -4,7 +4,7 @@
 
 > The Portfolio project is my personal Portfolio, basically the range of my investments throught my training in Microverse.  
 
-![screenshot](./portfolio.png)
+![screenshot](./portfolio.PNG)
 
 This project is build in two sections which are the "Header" and the "Headline". The header section uncludes the logo, named "My Logo" and navbar, the second section includes the background template and icons. All elements (background and icons, logo) were exported from Figma phototype.
 
