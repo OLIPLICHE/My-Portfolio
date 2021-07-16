@@ -94,7 +94,8 @@ body {
 
 .welcome {
   font-family: 'Poppins', sans-serif;
-  font-style: bold;
+  font-style: normal;
+  font-weight: bold;
   font-size: 48px;
   line-height: 60px;
   text-align: left;
