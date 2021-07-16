@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  width: 100%;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+  height: 4rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  line-height: 4rem;
+  height: 100%;
+}
+
+.d-navbar {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+}
+
+.d-navbar li {
+  margin-left: 1rem;
+}
+
+.d-navbar li a {
+  color: #6070ff;
+}
+
+.a-navbar {
+  text-decoration: none;
+  height: 2em;
+  padding: 0.5em 1em;
+}
+
+.navbar .humberger i {
+  font-size: 22px;
+  font-weight: 600;
+  color: #6070ff;
+}
+
+#main-container {
+  position: relative;
+  background-color: #e5e5e5;
+}
+
+.headline {
+  background-image: url(image/Header_bg@2x.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 5rem;
+  background-position: center;
+}
+
+.headline-main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.welcome {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: left;
+  letter-spacing: 0.37px;
+  color: #091e42;
+  padding-bottom: 1.2rem;
+}
+
+.introduction {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  max-width: 600px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+  text-align: left;
+}
+
+.link-up {
+  margin-top: 1rem;
+}
+
+.link-up h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6070ff;
+  padding: 0.5rem 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .d-navbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .humberger {
+    display: none;
+  }
+}
