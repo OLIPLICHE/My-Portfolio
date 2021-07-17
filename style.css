@@ -192,7 +192,8 @@ h4 {
 .language ul li {
   background-color: #ebebff;
   border-radius: 8px;
-  color: #6070ff;        
+  color: #6070ff;
+  padding: 5px 8px;       
 }
 
 .menu-1 {
