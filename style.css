@@ -10,10 +10,12 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #e5e5e5;
 }
 
 #header {
   width: 100%;
+  background-color: #FFFFFF;
 }
 
 .logo {
@@ -100,7 +102,7 @@ body {
   line-height: 60px;
   text-align: left;
   letter-spacing: 0.37px;
-  color: #091e42;
+  color: #172B4D;
   padding-bottom: 1.2rem;
 }
 
@@ -133,184 +135,201 @@ ul {
   padding: 0;
   display: flex;
   gap: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 #workers {
-    width: 100%;
-  }
+  width: 100%;
+}
   
-  .boxes {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #e5e5e5;
-  }
-  
-  .box {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    max-width: 596px;
-    padding: 16px;
-    margin: 25px auto;
-    border-radius: 16px;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
-    background-color: #fff;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Tonic {
-    width: 100%;
-  }
-  
-  .Tonic img {
-    max-width: 100%;
-  }
-  
-  h4 {
-    color: #172b4d;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 44px;
-    font-family: "Poppins", sans-serif;
-    margin: 12px 0;
-  }
-  
-  .menu {
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    color: #344563;
-  }
-  
-  .Tonic-menu {
-    list-style: disc;
-  }
-  
-  .menu ul li {
-    display: inline-block;
-    padding: 0 5px;
-    color: #7a869a;
-  }
-  
-  p {
-    color: #344563;
-  }
-  
-  .knowledges {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .knowledges .knw {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .btn-T button {
-    border: 1px solid #dfe1e6;
-    padding: 10px 20px;
-    outline: none;
-    background-color: transparent;
-    color: #6070ff;
-    border-radius: 12px;
-    box-sizing: border-box;
-    margin: 22px 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    border-color: #7f8cff;
-  }
-  
-  .btn-T button:focus {
-    background-color: #2230d2;
-    color: #fff;
-  }
-  
-  .btn-T button:hover {
-    background-color: #4053fc;
-    color: #fff;
-  }
-  
-  .aboutMe {
-    width: 100%;
-    padding-top: 5rem;
-  }
-  
-  .knowledges .knw .lang {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 1.5rem;
-    position: relative;
-  }
-  
-  .knowledges .knw .lang::before {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 1px;
-    background-color: rgb(190, 190, 190);
-  }
-  
-  .lang h3 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #000;
-  }
-  
-  .lang i {
-    font-size: 15px;
-    color: #253858;
-  }
-  
-  .knowledges .knw ul {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-top: 1rem;
-  }
-  
-  .knowledges .knw ul li {
-    width: 100%;
-    background-color: rgb(248, 248, 248);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    border-radius: 0.5rem;
-  }
-  
-  .knowledges .knw ul li img {
-    margin-left: 0.8rem;
-  }
-  
-  .knowledges .knw ul li h4 {
-    font-size: 1rem;
-    margin-left: 1rem;
-  }
+.boxes {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #e5e5e5;
+}
 
-  @media screen and (max-width: 600px) {
-    .d-navbar {
-      display: none;
-    }
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 596px;
+  padding: 16px;
+  margin: 25px auto;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tonic {
+  width: 100%;
+}
+
+.Tonic img {
+  max-width: 100%;
+}
+
+h4 {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: "Poppins", sans-serif;
+  margin: 12px 0;
+}
+
+.menu {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #344563;
+}
+
+.language ul li {
+  background-color: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;        
+}
+
+.menu-1 {
+  color: #344563;  
+}
+
+.menu-2 {
+  color: #7A869A;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+p {
+  color: #344563;
+  font-family: 'Poppins';
+}
+
+.knowledges {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.knowledges .knw {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-T button {
+  border: 1px solid #dfe1e6;
+  padding: 10px 20px;
+  outline: none;
+  background-color: transparent;
+  color: #396DF5;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin: 22px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-color: #7f8cff;
+}
+
+.btn-T button:focus {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn-T button:hover {
+  background-color: #4053fc;
+  color: #fff;
+}
+
+.aboutMe {
+  width: 100%;
+  padding-top: 5rem;
+  background-color: #FFFFFF;
+}
+
+.knowledges .knw .lang {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+
+.knowledges .knw .lang::before {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(190, 190, 190);
+}
+
+.lang h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+}
+
+.lang i {
+  font-size: 15px;
+  color: #253858;
+}
+
+.lang-b {
+  border-bottom: 1px solid #dfe1e6;    
+}
+
+.knowledges .knw ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.knowledges .knw ul li {
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 0.5rem;
+}
+
+.knowledges .knw ul li img {
+  margin-left: 0.8rem;
+}
+
+.knowledges .knw ul li h4 {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .d-navbar {
+    display: none;
   }
+}
   
-  @media screen and (min-width: 600px) {
-    .humberger {
-      display: none;
-    }
+@media screen and (min-width: 600px) {
+  .humberger {
+    display: none;
   }
+}
   
