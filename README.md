@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/OLIPLICHE)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/olipliche-paka-mavoungou/)
 
-## 🤝 Contributing
+## 🤝⭐️ Contributing
 
 Contributions, issues, and feature requests are welcome!
 
