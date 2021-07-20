@@ -48,7 +48,7 @@ button[type="submit"] {
 
 #header {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .logo {
@@ -92,6 +92,11 @@ button[type="submit"] {
 
 .d-navbar li a {
   color: #6070ff;
+}
+
+.lang i {
+  font-size: 15px;
+  color: #253858;
 }
 
 .a-navbar {
@@ -244,7 +249,7 @@ h4 {
 
 p {
   color: #344563;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 .knowledges {
@@ -292,7 +297,7 @@ p {
 .aboutMe {
   width: 100%;
   padding-top: 5rem;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .knowledges .knw .lang {
@@ -316,12 +321,7 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  color: #000000;
-}
-
-.lang i {
-  font-size: 15px;
-  color: #253858;
+  color: #000;
 }
 
 .lang-b {
@@ -358,7 +358,7 @@ p {
 .contact-section {
   margin-top: 114px;
   padding: 113px 24px;
-  background-color: #ffffff;
+  background-color: #fff;
   background-image: url(image/contact_me.svg);
   background-repeat: no-repeat;
   background-size: cover;
