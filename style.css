@@ -45,10 +45,6 @@ button[type="submit"] {
   color: #6070ff;
 }
 
-form {
-  padding: 0 24px;
-}
-
 #header {
   width: 100%;
   background-color: #ffffff;
@@ -357,6 +353,16 @@ p {
   font-size: 1rem;
   margin-left: 1rem;
 }
+
+.contact-section {
+  padding: 113px 24px;
+  background-color: #ffffff;
+  background-image: url(image/contact_me.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
 
 .contact-form {
   display: flex;
