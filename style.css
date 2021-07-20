@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
   padding: 0;
@@ -37,6 +37,7 @@ textarea {
 }
 
 button[type="submit"] {
+  margin-top: 16px;
   padding: 12px 16px;
   border-radius: 8px;
   font-size: 17px;
@@ -355,6 +356,7 @@ p {
 }
 
 .contact-section {
+  margin-top: 114px;
   padding: 113px 24px;
   background-color: #ffffff;
   background-image: url(image/contact_me.svg);
@@ -363,6 +365,25 @@ p {
   width: 100%;
 }
 
+.contact-section form h3 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.contact-section form p {
+  margin-top: 12px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+
+.background {
+  background-color: #fff;
+}
 
 .contact-form {
   display: flex;
