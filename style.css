@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
   padding: 0;
@@ -13,9 +13,42 @@ body {
   background-color: #e5e5e5;
 }
 
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+}
+
+input::placeholder {
+  color: #b3bac5;
+  font-size: 15px;
+}
+
+textarea {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+}
+
+button[type="submit"] {
+  margin-top: 16px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 17px;
+  border: none;
+  background-color: #fff;
+  color: #6070ff;
+}
+
 #header {
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .logo {
@@ -61,6 +94,11 @@ body {
   color: #6070ff;
 }
 
+.lang i {
+  font-size: 15px;
+  color: #253858;
+}
+
 .a-navbar {
   text-decoration: none;
   height: 2em;
@@ -102,7 +140,7 @@ body {
   line-height: 60px;
   text-align: left;
   letter-spacing: 0.37px;
-  color: #172B4D;
+  color: #172b4d;
   padding-bottom: 1.2rem;
 }
 
@@ -142,7 +180,7 @@ ul {
 #workers {
   width: 100%;
 }
-  
+
 .boxes {
   width: 100%;
   display: grid;
@@ -193,15 +231,15 @@ h4 {
   background-color: #ebebff;
   border-radius: 8px;
   color: #6070ff;
-  padding: 5px 8px;       
+  padding: 5px 8px;
 }
 
 .menu-1 {
-  color: #344563;  
+  color: #344563;
 }
 
 .menu-2 {
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .menu ul li {
@@ -211,7 +249,7 @@ h4 {
 
 p {
   color: #344563;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
 }
 
 .knowledges {
@@ -236,7 +274,7 @@ p {
   padding: 10px 20px;
   outline: none;
   background-color: transparent;
-  color: #396DF5;
+  color: #396df5;
   border-radius: 12px;
   box-sizing: border-box;
   margin: 22px 0;
@@ -259,7 +297,7 @@ p {
 .aboutMe {
   width: 100%;
   padding-top: 5rem;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .knowledges .knw .lang {
@@ -283,16 +321,11 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  color: #000000;
-}
-
-.lang i {
-  font-size: 15px;
-  color: #253858;
+  color: #000;
 }
 
 .lang-b {
-  border-bottom: 1px solid #dfe1e6;    
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .knowledges .knw ul {
@@ -322,15 +355,51 @@ p {
   margin-left: 1rem;
 }
 
+.contact-section {
+  margin-top: 114px;
+  padding: 113px 24px;
+  background-color: #fff;
+  background-image: url(image/contact_me.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.contact-section form h3 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.contact-section form p {
+  margin-top: 12px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+
+.background {
+  background-color: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 67px 0;
+  padding: 0;
+}
+
 @media screen and (max-width: 600px) {
   .d-navbar {
     display: none;
   }
 }
-  
+
 @media screen and (min-width: 600px) {
   .humberger {
     display: none;
   }
 }
-  
