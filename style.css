@@ -386,6 +386,10 @@ p {
   font-weight: 400;
 }
 
+.contact-section form p :hover {
+  transform: translate(0, 10px);
+  font-weight: 700;
+}
 
 .background {
   background-color: #fff;
