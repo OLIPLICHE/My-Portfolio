@@ -116,7 +116,7 @@ button[type="submit"] {
 }
 
 .headline {
-  background-image: url(image/Header_bg@2x.jpg);
+  background-image: url(image/headline-back-desktop.png);
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -358,7 +358,7 @@ p {
   margin-top: 114px;
   padding: 113px 24px;
   background-color: #fff;
-  background-image: url(image/contact_me.svg);
+  background-image: url(image/contact-back-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -484,6 +484,18 @@ p {
 }
 
 @media screen and (min-width: 1000px) {
+  body {
+    width: 1600px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-container {
+    padding-top: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
   .headline {
     height: 100%;
     width: 100%;
@@ -495,7 +507,10 @@ p {
   }
 
   .headline-main-container {
-    padding-left: 142px;
+    padding-left: 150px;
+    padding-top: 280px;
+    padding-bottom: 100px;
+    margin: 0;
   }
 
   #workers {
@@ -521,12 +536,13 @@ p {
 
   .introduction {
     max-width: 100%;
-    width: 76%;
     height: 98px;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 28px;
     color: #344563;
     display: inline-block;
+    padding-top: 30px;
+    width: 70%;
   }
 
   .box {
@@ -692,7 +708,7 @@ p {
   .instruction1 {
     width: 496px;
     height: 53px;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 24px;
     font-family: "Poppins", sans-serif;
     font-weight: normal;
@@ -723,13 +739,23 @@ p {
     padding-top: 59px;
   }
 
+  .introduction1 {
+    width: 82%;
+    padding-top: 12px;
+  }
+
   pre {
-    color: #172b4d;
+    color: #253858;
     font-weight: bold;
     font-size: 12px;
     line-height: 44px;
     font-family: "Poppins", sans-serif;
     margin: 12px 0;
+  }
+
+  .java {
+    display: flex;
+    flex-direction: column;
   }
 
   .box3 {
