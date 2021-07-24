@@ -211,6 +211,11 @@ ul {
   max-width: 100%;
 }
 
+.logo :hover {
+  transform: scale(1.2);
+  color: var(--primary-400);
+}
+
 h4 {
   color: #172b4d;
   font-weight: bold;
@@ -380,6 +385,7 @@ p {
   color: #fff;
   font-weight: 400;
 }
+
 
 .background {
   background-color: #fff;
