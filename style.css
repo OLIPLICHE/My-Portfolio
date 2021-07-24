@@ -48,7 +48,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #6070ff;
-  color: #fff
+  color: #fff;
 }
 
 #header {
