@@ -28,7 +28,6 @@ input::placeholder {
 }
 
 textarea {
-  margin-top: 20px;
   width: 100%;
   padding: 15px;
   border-radius: 8px;
@@ -117,7 +116,7 @@ button[type="submit"] {
 }
 
 .headline {
-  background-image: url(image/Header_bg@2x.jpg);
+  background-image: url(image/headline-back-desktop.png);
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -359,7 +358,7 @@ p {
   margin-top: 114px;
   padding: 113px 24px;
   background-color: #fff;
-  background-image: url(image/contact_me.svg);
+  background-image: url(image/contact-back-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -396,10 +395,475 @@ p {
   .d-navbar {
     display: none;
   }
+
+  .instruction1 {
+    display: none;
+  }
+
+  .instruction3 {
+    display: none;
+  }
+
+  .Tonic-menu1 .menu1-1 {
+    display: none;
+  }
+
+  .Tonic-menu1 .menu1-2 {
+    display: none;
+  }
+
+  .Tonic-menu1 .menu1-3 {
+    display: none;
+  }
+
+  .Tonic-menu3 .menu3-1 {
+    display: none;
+  }
+
+  .Tonic-menu3 .menu3-2 {
+    display: none;
+  }
+
+  .Tonic-menu3 .menu3-3 {
+    display: none;
+  }
+
+  .language1 .l2 {
+    display: none;
+  }
+
+  h5 {
+    display: none;
+  }
+
+  h6 {
+    display: none;
+  }
+
+  address {
+    display: none;
+  }
+
+  .Tonic .img1 {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 600px) {
   .humberger {
     display: none;
+  }
+
+  h4 {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .Tonic-menu .menu-1 {
+    display: none;
+  }
+
+  .Tonic-menu .menu-2 {
+    display: none;
+  }
+
+  .instruction {
+    display: none;
+  }
+
+  .language {
+    display: none;
+  }
+
+  .Tonic .img_ignore {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #main-container {
+    width: 100%;
+  }
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-container {
+    padding-top: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .headline {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-top: 5rem;
+    background-position: center;
+  }
+
+  .headline-main-container {
+    padding-left: 150px;
+    padding-top: 280px;
+    padding-bottom: 100px;
+    margin: 0;
+    width: 100%;
+  }
+
+  #workers {
+    width: 100%;
+  }
+
+  .welcome {
+    width: 100%;
+    height: 122px;
+    font-size: 48px;
+    line-height: 60px;
+    align-items: center;
+    letter-spacing: 0.37px;
+    display: inline-block;
+  }
+
+  .boxes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #e5e5e5;
+  }
+
+  .introduction {
+    max-width: 100%;
+    height: 98px;
+    font-size: 23px;
+    line-height: 28px;
+    color: #344563;
+    display: inline-block;
+    padding-top: 30px;
+    width: 70%;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    max-width: 1155px;
+    padding: 16px;
+    margin: 25px auto;
+    border-radius: 16px;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 496px;
+  }
+
+  h5 {
+    width: 496px;
+    height: 46px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    padding: 48px 46px 20px 48px;
+  }
+
+  h6 {
+    width: 496px;
+    height: 46px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    padding: 48px 46px 20px 48px;
+  }
+
+  address {
+    width: 496px;
+    height: 46px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    padding: 48px 46px 20px 48px;
+  }
+
+  .Tonic {
+    width: 100%;
+  }
+
+  .Tonic img {
+    width: 544px;
+    height: 448px;
+    padding: 24px 22px 24px 46px;
+    border-radius: 8px;
+  }
+
+  .Tonic .img1 {
+    width: 544px;
+    height: 448px;
+    padding: 24px 22px 24px 46px;
+    border-radius: 8px;
+  }
+
+  .box-div {
+    display: flex;
+  }
+
+  .third {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .last {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .menu1 {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    height: 24px;
+    padding-top: 20px;
+    padding-bottom: 32px;
+    padding-left: 48px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .menu3 {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    height: 24px;
+    padding-top: 20px;
+    padding-bottom: 32px;
+    padding-left: 48px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .menu1-1 {
+    color: #344563;
+    width: 43px;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .menu1-2 {
+    color: #6b778c;
+    width: 150px;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .menu1-3 {
+    color: #6b778c;
+    width: 38px;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .menu3-1 {
+    color: #344563;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .menu3-2 {
+    color: #6b778c;
+    width: 150px;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .menu3-3 {
+    color: #6b778c;
+    width: 38px;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .menu1 ul li {
+    display: inline-block;
+    padding: 0 5px;
+  }
+
+  .menu3 ul li {
+    display: inline-block;
+    padding: 0 5px;
+  }
+
+  .btnt {
+    padding-left: 50px;
+  }
+
+  .instruction1 {
+    width: 496px;
+    height: 53px;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #344563;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+  }
+
+  .instruction3 {
+    width: 496px;
+    height: 53px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #344563;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+  }
+
+  .language1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 48px;
+    padding-top: 59px;
+  }
+
+  .introduction1 {
+    width: 82%;
+    padding-top: 12px;
+  }
+
+  pre {
+    color: #253858;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 44px;
+    font-family: "Poppins", sans-serif;
+    margin: 12px 0;
+  }
+
+  .java {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box3 {
+    order: -1;
+  }
+
+  .box2 {
+    order: 0;
+  }
+
+  .box1 {
+    order: 1;
+  }
+
+  .box4 {
+    order: 1;
+  }
+
+  .aboutMe {
+    width: 100%;
+    padding-top: 5rem;
+    background-color: #fff;
+  }
+
+  .main-headline1 {
+    width: 50%;
+    padding-left: 180px;
+  }
+
+  .headline-main-container1 {
+    display: flex;
+  }
+
+  .languages .knw ul {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    padding: 60px 0;
+  }
+
+  .lang i {
+    padding-left: 280px;
+  }
+
+  .main-knowledges {
+    padding-top: 34px;
+    padding-left: 160px;
+  }
+
+  .knowledges .knw ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    flex-direction: row;
+  }
+
+  .contact-section form p {
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    width: 35%;
+  }
+
+  .coverUl {
+    width: 447px;
+    margin: 0 auto;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 0;
+    border: none;
+    background-color: #fff;
+  }
+
+  input[type="email"] {
+    border-radius: 0;
+  }
+
+  input[type="submit"] {
+    padding: 12px 16px;
+    border-radius: 0;
+    font-size: 17px;
+    border: none;
+    background-color: #fff;
+    color: #6070ff;
+  }
+
+  .subm {
+    margin: 0 auto;
+  }
+
+  .languages .knw ul li {
+    padding: 15px;
+  }
+
+  .skills .fas {
+    padding-left: 353px;
   }
 }
