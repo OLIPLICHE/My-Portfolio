@@ -46,6 +46,11 @@ button[type="submit"] {
   color: #6070ff;
 }
 
+button[type="submit"]:hover {
+  background-color: #6070ff;
+  color: #fff
+}
+
 #header {
   width: 100%;
   background-color: #fff;
