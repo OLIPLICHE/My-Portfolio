@@ -13,6 +13,9 @@ This project is build in three sections. First section includes "Header" and the
 - HTML
 - CSS
 
+## Live Demo
+- [Live Demo Link](https://olipliche.github.io/My-Portfolio/)
+
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
