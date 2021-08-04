@@ -16,6 +16,18 @@
     <title>Portfolio</title>
   </head>
   <body>
+  <!--Mobile menu-->
+
+  <div id="menuId" class="myMenu">
+    <ul >
+      <li class="claList"><a href="#portfolio">Portfolio</a></li>
+      <li class="claList"><a href="#about">About</a></li>
+      <li class="claList"><a href="#contact">Contact</a></li>
+    </ul>
+    <img src="./image/IconX.svg" alt="Close Menu" class="close" id="closeMenu">
+  </div>
+
+
     <header id="header">
       <div class="header-container">
         <div class="logo">
@@ -27,7 +39,7 @@
             <li><a class="a-navbar" href="#About">About</a></li>
             <li><a class="a-navbar" href="#Contact">Contact</a></li>
           </ul>
-          <div class="humberger">
+          <div class="humberger" id="humbergerShape">
             <i class="fa fa-bars"></i>
           </div>
         </nav>
@@ -72,7 +84,7 @@
         </div>
       </section>
     </main>
-    <section id="workers">
+    <section id="workers" id="portfolio">
       <ul class="boxes">
         <li class="box box1">
           <div class="box-div one">
@@ -246,7 +258,7 @@
       </ul>
     </section>
     <div class="background">
-      <section class="aboutMe">
+      <section class="aboutMe" id="about">
         <div class="headline-main-container1">
           <div class="main-headline1">
             <h3 class="welcome">
@@ -332,7 +344,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-section">
+      <section class="contact-section" id="contact">
         <form action="https://formspree.io/f/moqynypw" method="post" class="">
           <h3>Contact me</h3>
           <p>
@@ -359,5 +371,6 @@
         </form>
       </section>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

@@ -4,17 +4,18 @@
 
 > The Portfolio project is my personal Portfolio, basically the range of my investments throught my training in Microverse.  
 
-![screenshot](./pakaMyPortfolio.png)
+![screenshot](image/short.png)
 
-This project is build in three sections. First section includes "Header" and the "Headline", second section includes "Works" and "About Me" page, third section in the footer is Contact form. The header section uncludes the logo, named "My Logo" and navbar, and background template, icons. The second section includes pictures and icons. Third section a background template. All elements (background and icons, logo) were exported from Figma phototype. Also, I parse a Figma design to create a UI. In the form, the data is collected by using `Formspree service(https://formspree.io/html)`.
+This project is build in three sections. First section includes "Header" and the "Headline", second section includes "Works" and "About Me" page, third section in the footer is Contact form.  `The mobile Menu` is in the header section of the mobile version, which uncludes the logo, named "My Logo" and navbar, and background template, icons. The second section includes pictures and icons. Third section a background template. All elements (background and icons, logo) were exported from Figma phototype. Also, I parse a Figma design to create a UI. In the form, the data is collected by using `Formspree service(https://formspree.io/html)`.
 
 ## Built With
 
 - HTML
 - CSS
+- Js
 
 ## Live Demo
-- [Live Demo Link](https://olipliche.github.io/My-Portfolio/)
+- [Live Demo Link](https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
@@ -28,12 +29,20 @@ To get a local copy up and running follow these simple example steps.
 - Git
 - Html
 - CSS
+- Js
 
 ## Author
 👤 **paka**
 
 - GitHub: [@githubhandle](https://github.com/OLIPLICHE)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/olipliche-paka-mavoungou/)
+
+## Collaborators
+
+👤 **Yannick-Noel AKA**
+- GitHub: [@githubhandle](https://github.com/codecaiine)
+👤 **mwanawabangona**
+- GitHub: [@githubhandle](https://github.com/mwanawabangona)
 
 ## 🤝⭐️ Contributing
 
