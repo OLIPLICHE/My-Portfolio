@@ -45,6 +45,11 @@ button[type="submit"] {
   color: #6070ff;
 }
 
+button[type="submit"]:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
 #header {
   width: 100%;
   background-color: #fff;
@@ -208,6 +213,11 @@ ul {
 
 .Tonic img {
   max-width: 100%;
+}
+
+.logo :hover {
+  transform: scale(1.2);
+  color: var(--primary-400);
 }
 
 h4 {
@@ -378,6 +388,11 @@ p {
   text-align: center;
   color: #fff;
   font-weight: 400;
+}
+
+.contact-section form p :hover {
+  transform: translate(0, 10px);
+  font-weight: 700;
 }
 
 .background {
