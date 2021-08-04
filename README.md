@@ -29,6 +29,7 @@ To get a local copy up and running follow these simple example steps.
 - Git
 - Html
 - CSS
+- Js
 
 ## Author
 👤 **paka**
