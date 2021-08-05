@@ -1,6 +1,6 @@
 const myTopMenu = document.getElementById('menuId');
 const closeIcon = document.getElementById('closeMenu');
-const openIcon = document.getElementById('humbergerShape');
+const openIcon = document.getElementById('hambergerShape');
 
 function menuClose() {
   myTopMenu.style.left = '-110%';
