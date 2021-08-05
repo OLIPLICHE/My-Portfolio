@@ -16,17 +16,49 @@
     <title>Portfolio</title>
   </head>
   <body>
+  
+  <!--Popup window-->
+  <div class="popup-overlay hidden" id="popup">
+    <div class="card popup desk">
+      <img src="image/popupClose-icon.svg" alt="close-overlay" class="popup-close-btn"/>
+      <h2 class="heading-secondary desk" id="name">Tonic</h2>
+      <ul class="card-info desk">
+        <li id="companyName">CANOPY</li>
+        <li>
+          <img src="image/Counter.svg" alt="dot" class="card-info-dot"/>
+        </li>
+        <li class="input-text" id="job">Back End Dev</li>
+        <li>
+          <img src="image/Counter.svg" alt="dot" class="card-info-dot"/>
+        </li>
+        <li class="input-text" id="store">2015</li>
+      </ul>
+      <img class="card-img desk" id="img" src="image/Snapshoot_Portfolio.svg" alt="Tonic"/>
+      <div class="first">
+        <p class="text-secondary mob desk" id="description"></p>
+      </div>
+      <div class="second">
+        <ul class="card-tags desk" id="tags"></ul>
+        <div class="line"></div>
+        <div class="adjust-btn-element">
+          <a href="#" class="button btn-element desk">See Live<img src="image/Live-icon.svg" alt="live"/></a>
+          <a href="#" class="button btn-element desk">See Source<img src="image/Github-icon.svg" alt="git"/></a>
+        </div>
+      </div>
+    </div>  
+  </div>
+    <!--Popup window End-->
+  
   <!--Mobile menu-->
-
   <div id="menuId" class="myMenu">
     <ul >
-      <li class="claList"><a href="#portfolio">Portfolio</a></li>
+      <li class="claList"><a href="#workers">Portfolio</a></li>
       <li class="claList"><a href="#about">About</a></li>
       <li class="claList"><a href="#contact">Contact</a></li>
     </ul>
     <img src="./image/IconX.svg" alt="Close Menu" class="close" id="closeMenu">
   </div>
-
+  <!--Mobile menu End-->
 
     <header id="header">
       <div class="header-container">
@@ -39,7 +71,7 @@
             <li><a class="a-navbar" href="#About">About</a></li>
             <li><a class="a-navbar" href="#Contact">Contact</a></li>
           </ul>
-          <div class="humberger" id="humbergerShape">
+          <div class="hamberger" id="hambergerShape">
             <i class="fa fa-bars"></i>
           </div>
         </nav>
@@ -84,7 +116,8 @@
         </div>
       </section>
     </main>
-    <section id="workers" id="portfolio">
+    
+    <section id="workers">
       <ul class="boxes">
         <li class="box box1">
           <div class="box-div one">
@@ -122,7 +155,7 @@
               </div>
               <div class="btnt">
                 <div class="btn-T">
-                  <button type="button">See Project</button>
+                  <button id="btn-1" type="button">See Project</button>
                 </div>
               </div>
             </div>
@@ -164,7 +197,7 @@
               </div>
               <div class="btnt">
                 <div class="btn-T">
-                  <button type="button">See Project</button>
+                  <button id="btn-2" type="button">See Project</button>
                 </div>
               </div>
             </div>  
@@ -207,7 +240,7 @@
               </div>
               <div class="btnt">
                 <div class="btn-T">
-                  <button type="button">See Project</button>
+                  <button id="btn-3" type="button">See Project</button>
                 </div>
               </div>
             </div>
@@ -249,7 +282,7 @@
               </div>
               <div class="btnt">
                 <div class="btn-T">
-                  <button type="button">See Project</button>
+                  <button id="btn-4" type="button">See Project</button>
                 </div>
               </div>
             </div>
@@ -371,6 +404,7 @@
         </form>
       </section>
     </div>
+    <script src="script.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
