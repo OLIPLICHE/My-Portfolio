@@ -13,6 +13,10 @@ body {
   background-color: #e5e5e5;
 }
 
+.hidden {
+  display: none;
+}
+
 .popup-overlay {
   position: fixed;
   top: 0;
@@ -99,12 +103,6 @@ body {
   color: #7a869a;
   font-weight: 600;
   font-size: 12px;
-}
-
-.card-info-dot {
-  color: #c1c7d0;
-.hidden {
-  display: none;
 }
 
 .myMenu {
