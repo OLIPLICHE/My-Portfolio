@@ -13,7 +13,6 @@ body {
   background-color: #e5e5e5;
 }
 
-<<<<<<< HEAD
 .popup-overlay {
   position: fixed;
   top: 0;
@@ -104,10 +103,8 @@ body {
 
 .card-info-dot {
   color: #c1c7d0;
-=======
 .hidden {
   display: none;
->>>>>>> 6ee75ede28e6b44b1b43eaa6928bdb6385023089
 }
 
 .myMenu {
