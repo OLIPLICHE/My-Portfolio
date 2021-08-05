@@ -13,6 +13,10 @@ body {
   background-color: #e5e5e5;
 }
 
+.hidden {
+  display: none;
+}
+
 .myMenu {
   position: absolute;
   width: 100%;
