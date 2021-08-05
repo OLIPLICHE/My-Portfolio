@@ -2,11 +2,12 @@
 
 # My Portfolio
 
-> The Portfolio project is my personal Portfolio, basically the range of my investments throught my training in Microverse.  
+> The Portfolio project is my personal Portfolio, basically the range of my investments through my training in Microverse. My Portfolio website 
+is in both Mobile and Desktop versions. 
 
 ![screenshot](image/short.png)
 
-This project is build in three sections. First section includes "Header" and the "Headline", second section includes "Works" and "About Me" page, third section in the footer is Contact form.  `The mobile Menu` is in the header section of the mobile version, which uncludes the logo, named "My Logo" and navbar, and background template, icons. The second section includes pictures and icons. Third section a background template. All elements (background and icons, logo) were exported from Figma phototype. Also, I parse a Figma design to create a UI. In the form, the data is collected by using `Formspree service(https://formspree.io/html)`.
+This project is build in three sections. First section includes "Header" and the "Headline", second section includes "Works" and "About Me" page, third section in the footer is Contact form.  `The mobile Menu` is in the header section of the mobile version in which includes a popup interactions, the logo "My Logo" and navbar, the background template, icons. The second section includes pictures and icons with popup interaction in Mobile version. Third section is the contact section. All elements (background and icons, logo) were exported from Figma phototype. Also, I parse a Figma design to create a UI. In the form, the data is collected by using `Formspree service(https://formspree.io/html)`.
 
 ## Built With
 
