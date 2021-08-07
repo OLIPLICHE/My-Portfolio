@@ -3,7 +3,7 @@
 # My Portfolio
 
 > The Portfolio project is my personal Portfolio, basically the range of my investments through my training in Microverse. My Portfolio website 
-is in both Mobile and Desktop versions. 
+is in both Mobile and Desktop versions. In Mobile version, this website is more responsive on Iphone 6/7/8/plus and IphoneX.
 
 ![screenshot](image/short.png)
 
