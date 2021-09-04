@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const store = [
   {
     id: 1,
@@ -37,14 +38,19 @@ const store = [
 
   {
     id: 4,
-    name: 'Uber Navigation',
-    img: 'image/SnapshootPortfolio(1).svg',
-    companyName: 'Uber',
+    name: 'To-Do-List',
+    // name: 'Uber Navigation',
+    // img: 'image/SnapshootPortfolio(1).svg',
+    img: 'image/shoot3.png',
+    companyName: 'Paka',
+    // companyName: 'Uber',
     job: 'Lead Developer',
-    year: 2018,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. ',
-    tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    seeLive: 'https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html',
+    year: 2021,
+    // year: 2018,
+    description: 'In this project, I build a simple and interactive HTML list of To-Do tasks. This web page is build using Webpack and served by a Webpack dev server. ',
+    // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven. ',
+    tags: ['html', 'css', 'javaScript'],
+    seeLive: 'https://olipliche.github.io/To-Do-list/dist/',
   },
 ];
 
