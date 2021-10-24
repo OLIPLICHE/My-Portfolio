@@ -15,7 +15,7 @@ This Website page contains three sections. First section, the "Header" is simply
 - Js
 
 ## Live Demo
-- [Live Demo Link](https://olipliche.github.io/My-Portfolio/)
+- [Live Demo Link](https://paka-my-portfolio.netlify.app/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
