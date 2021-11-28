@@ -42,7 +42,6 @@ const store = [
     name: 'To-Do-List',
      img: 'image/shoot3.png',
     companyName: 'Paka',
-    // companyName: 'Uber',
     job: 'Lead Developer',
     year: 2021,
     // year: 2018,
