@@ -14,7 +14,7 @@ const store = [
 
   {
     id: 2,
-    name: 'Calculator App',
+    name: 'Math magicians app',
     img: 'image/calc.png',
     companyName: 'CANOPY',
     job: 'Lead Developer',
