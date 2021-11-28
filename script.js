@@ -2,14 +2,15 @@
 const store = [
   {
     id: 1,
-    name: 'Tonic',
-    img: 'image/Snapshoot_Portfolio.svg',
+    name: 'JS-Capstone',
+    // name: 'Tonic',
+    img: 'image/restoApp.png',
     companyName: 'CANOPY',
-    job: 'Back End Dev',
-    year: 2015,
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
-    tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    seeLive: 'https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html',
+    job: 'Front End Dev',
+    year: 2021,
+    description: 'This website App displays meals information from Sea food. It also allows users to submit their comments and likes for their favorite dish. All data is preserved thanks to the external MealsDB API, and involvement API',
+    tags: ['html', 'API', 'css', 'JS','Jest', 'Webpack'],
+    seeLive: 'https://olipliche.github.io/JS-Capstone/dist/',
   },
 
   {
