@@ -2,7 +2,7 @@
 const store = [
   {
     id: 1,
-    name: 'JS-Capstone',
+    name: 'Restaurant-App',
     img: 'image/restoApp.png',
     companyName: 'CANOPY',
     job: 'Front End Dev',
