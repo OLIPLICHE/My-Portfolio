@@ -44,7 +44,6 @@ const store = [
     companyName: 'Paka',
     job: 'Lead Developer',
     year: 2021,
-    // year: 2018,
     description: 'In this project, I build a simple and interactive HTML list of To-Do tasks. This web page is build using Webpack and served by a Webpack dev server. ',
     // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven. ',
     tags: ['html', 'css', 'javaScript'],
