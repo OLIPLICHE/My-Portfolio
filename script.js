@@ -40,7 +40,6 @@ const store = [
   {
     id: 4,
     name: 'To-Do-List',
-    // name: 'Uber Navigation',
     // img: 'image/SnapshootPortfolio(1).svg',
     img: 'image/shoot3.png',
     companyName: 'Paka',
