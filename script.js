@@ -14,14 +14,14 @@ const store = [
 
   {
     id: 2,
-    name: 'Multi-Post Stories',
-    img: 'image/Snapshoot_Portfolio(3).svg',
-    companyName: 'FACEBOOK',
-    job: 'Full Stack Dev',
-    year: 2015,
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
-    tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    seeLive: 'https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html',
+    name: 'To-Do-List',
+    img: 'image/shoot3.png',
+    companyName: 'Paka',
+    job: 'Lead Developer',
+    year: 2021,
+    description: 'In this project, I build a simple and interactive HTML list of To-Do tasks. This web page is build using Webpack and served by a Webpack dev server. ',
+    tags: ['html', 'css', 'javaScript'],
+    seeLive: 'https://olipliche.github.io/To-Do-list/dist/',
   },
 
   {
@@ -38,14 +38,14 @@ const store = [
 
   {
     id: 4,
-    name: 'To-Do-List',
-    img: 'image/shoot3.png',
-    companyName: 'Paka',
-    job: 'Lead Developer',
-    year: 2021,
-    description: 'In this project, I build a simple and interactive HTML list of To-Do tasks. This web page is build using Webpack and served by a Webpack dev server. ',
-    tags: ['html', 'css', 'javaScript'],
-    seeLive: 'https://olipliche.github.io/To-Do-list/dist/',
+    name: 'Multi-Post Stories',
+    img: 'image/Snapshoot_Portfolio(3).svg',
+    companyName: 'FACEBOOK',
+    job: 'Full Stack Dev',
+    year: 2015,
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
+    tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    seeLive: 'https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html',
   },
 ];
 
