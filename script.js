@@ -2,14 +2,14 @@
 const store = [
   {
     id: 1,
-    name: 'Tonic',
-    img: 'image/Snapshoot_Portfolio.svg',
+    name: 'Restaurant-App',
+    img: 'image/restoApp.png',
     companyName: 'CANOPY',
-    job: 'Back End Dev',
-    year: 2015,
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
-    tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    seeLive: 'https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html',
+    job: 'Front End Dev',
+    year: 2021,
+    description: 'This website App displays meals information from Sea food. It also allows users to submit their comments and likes for their favorite dish. All data is preserved thanks to the external MealsDB API, and involvement API.',
+    tags: ['html', 'API', 'css', 'JS', 'Jest', 'Webpack'],
+    seeLive: 'https://olipliche.github.io/JS-Capstone/dist/',
   },
 
   {
@@ -39,16 +39,11 @@ const store = [
   {
     id: 4,
     name: 'To-Do-List',
-    // name: 'Uber Navigation',
-    // img: 'image/SnapshootPortfolio(1).svg',
     img: 'image/shoot3.png',
     companyName: 'Paka',
-    // companyName: 'Uber',
     job: 'Lead Developer',
     year: 2021,
-    // year: 2018,
     description: 'In this project, I build a simple and interactive HTML list of To-Do tasks. This web page is build using Webpack and served by a Webpack dev server. ',
-    // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven. ',
     tags: ['html', 'css', 'javaScript'],
     seeLive: 'https://olipliche.github.io/To-Do-list/dist/',
   },
