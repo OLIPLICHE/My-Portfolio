@@ -40,8 +40,7 @@ const store = [
   {
     id: 4,
     name: 'To-Do-List',
-    // img: 'image/SnapshootPortfolio(1).svg',
-    img: 'image/shoot3.png',
+     img: 'image/shoot3.png',
     companyName: 'Paka',
     // companyName: 'Uber',
     job: 'Lead Developer',
