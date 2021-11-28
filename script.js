@@ -8,20 +8,20 @@ const store = [
     job: 'Front End Dev',
     year: 2021,
     description: 'This website App displays meals information from Sea food. It also allows users to submit their comments and likes for their favorite dish. All data is preserved thanks to the external MealsDB API, and involvement API.',
-    tags: ['html', 'API', 'css', 'JS', 'Webpack'],
+    tags: ['html', 'api', 'css', 'JS', 'Webpack'],
     seeLive: 'https://olipliche.github.io/JS-Capstone/dist/',
   },
 
   {
     id: 2,
-    name: 'To-Do-List',
-    img: 'image/shoot3.png',
-    companyName: 'Paka',
+    name: 'Calculator App',
+    img: 'image/calc.png',
+    companyName: 'CANOPY',
     job: 'Lead Developer',
     year: 2021,
-    description: 'In this project, I build a simple and interactive HTML list of To-Do tasks. This web page is build using Webpack and served by a Webpack dev server. ',
-    tags: ['html', 'css', 'javaScript'],
-    seeLive: 'https://olipliche.github.io/To-Do-list/dist/',
+    description: 'I developed a React application called the Math magicians app and UI of the calculator. This calculator app works at 100%. ',
+    tags: ['React', 'Reactjs', 'javaScript'],
+    seeLive: 'https://paka-math-magicians.netlify.app/',
   },
 
   {
