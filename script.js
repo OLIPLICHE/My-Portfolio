@@ -8,7 +8,7 @@ const store = [
     job: 'Front End Dev',
     year: 2021,
     description: 'This website App displays meals information from Sea food. It also allows users to submit their comments and likes for their favorite dish. All data is preserved thanks to the external MealsDB API, and involvement API.',
-    tags: ['html', 'api', 'css', 'JS', 'Webpack'],
+    tags: ['html', 'api', 'JS', 'Webpack'],
     seeLive: 'https://olipliche.github.io/JS-Capstone/dist/',
   },
 
