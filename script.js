@@ -8,12 +8,36 @@ const store = [
     job: 'Front End Dev',
     year: 2021,
     description: 'This website App displays meals information from Sea food. It also allows users to submit their comments and likes for their favorite dish. All data is preserved thanks to the external MealsDB API, and involvement API.',
-    tags: ['html', 'API', 'css', 'JS', 'Jest', 'Webpack'],
+    tags: ['html', 'api', 'JS', 'Webpack'],
     seeLive: 'https://olipliche.github.io/JS-Capstone/dist/',
   },
 
   {
     id: 2,
+    name: 'Math magicians app',
+    img: 'image/calc.png',
+    companyName: 'CANOPY',
+    job: 'Lead Developer',
+    year: 2021,
+    description: 'I developed a React application called the Math magicians app and UI of the calculator. This calculator app works at 100%. ',
+    tags: ['React', 'Reactjs', 'javaScript'],
+    seeLive: 'https://paka-math-magicians.netlify.app/',
+  },
+
+  {
+    id: 3,
+    name: 'space-travellers-hub',
+    img: 'image/space1.png',
+    companyName: 'Air-Space',
+    job: 'Full Stack Dev',
+    year: 2021,
+    description: 'Space Travelers Hub is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    tags: ['react', 'redux', 'api', 'JS'],
+    seeLive: 'https://space-travelers-hub45.herokuapp.com/',
+  },
+
+  {
+    id: 4,
     name: 'Multi-Post Stories',
     img: 'image/Snapshoot_Portfolio(3).svg',
     companyName: 'FACEBOOK',
@@ -22,30 +46,6 @@ const store = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
     tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
     seeLive: 'https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html',
-  },
-
-  {
-    id: 3,
-    name: 'Facebook 360',
-    img: 'image/Snapshoot_Portfolio(2).svg',
-    companyName: 'FACEBOOK',
-    job: 'Full Stack Dev',
-    year: 2015,
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
-    tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    seeLive: 'https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html',
-  },
-
-  {
-    id: 4,
-    name: 'To-Do-List',
-    img: 'image/shoot3.png',
-    companyName: 'Paka',
-    job: 'Lead Developer',
-    year: 2021,
-    description: 'In this project, I build a simple and interactive HTML list of To-Do tasks. This web page is build using Webpack and served by a Webpack dev server. ',
-    tags: ['html', 'css', 'javaScript'],
-    seeLive: 'https://olipliche.github.io/To-Do-list/dist/',
   },
 ];
 
