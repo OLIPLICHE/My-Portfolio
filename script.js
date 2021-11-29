@@ -26,14 +26,14 @@ const store = [
 
   {
     id: 3,
-    name: 'Facebook 360',
-    img: 'image/Snapshoot_Portfolio(2).svg',
-    companyName: 'FACEBOOK',
+    name: 'space-travellers-hub',
+    img: 'image/space1.png',
+    companyName: 'Air-Space',
     job: 'Full Stack Dev',
-    year: 2015,
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing.',
-    tags: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    seeLive: 'https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html',
+    year: 2021,
+    description: 'Space Travelers Hub is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    tags: ['react', 'redux', 'api', 'JS'],
+    seeLive: 'https://space-travelers-hub45.herokuapp.com/',
   },
 
   {
