@@ -2,7 +2,7 @@
 
 # My Portfolio
 
-> The Portfolio Website is my personal Portfolio, basically the range of my investments through my training in Microverse. My Portfolio website is in both Mobile and Desktop versions.
+>This Website is my portfolio, basically the range of my investments through my training in Microverse. My Portfolio website is in both Mobile and Desktop versions.
 
 ![screenshot](image/short.png)
 
