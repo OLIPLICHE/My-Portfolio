@@ -6,7 +6,7 @@
 
 ![screenshot](image/short.png)
 
-This Website page contains three sections. The first section, the Header, is simply an introduction. The second section is where you find most of my achievments and completed projects. The third section is my social media and the contact form. My Portfolio has popup interactions. I used the Figma phototype to export the background and icons, logo. Also, I parsed a Figma design to create a UI. `Formspree service(https://formspree.io/html)` collects and saves the data in the Form...........
+This Website page contains three sections. The first section, the Header, is simply an introduction. The second section is where you find most of my achievments and completed projects. The third section is my social media and the contact form. My Portfolio has popup interactions. I used the Figma phototype to export the background and icons, logo. Also, I parsed a Figma design to create a UI. `Formspree service(https://formspree.io/html)` collects and saves the data in the Form..........
 
 ## Built With
 
