@@ -49,6 +49,18 @@ const store = [
   },
 
   {
+    id: 6,
+    name: 'AMAKI AGENCY',
+    img: 'image/amarky.JPG',
+    companyName: 'AMAKI',
+    job: 'Full Stack Dev',
+    year: 2023,
+    description: 'Amaki Agency Healthcare provides high quality homecare, also known as domiciliary care and support to clients living in their own homes.',
+    tags: ['html5', 'React', 'css3', 'javaScript'],
+    seeLive: 'https://amaky-ag.netlify.app/',
+  },
+
+  {
     id: 4,
     name: 'Multi-Post Stories',
     img: 'image/Snapshoot_Portfolio(3).svg',
