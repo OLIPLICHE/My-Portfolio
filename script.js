@@ -2,18 +2,42 @@
 const store = [
   {
     id: 1,
+    name: 'Dashboard App.',
+    img: 'image/dashboard.JPG',
+    companyName: 'MicroLap',
+    job: 'Lead Developer',
+    year: 2024,
+    description: 'I developed a React Admin. Dashboard application you ever seen. Pages and Apps are Working Perfectly. This Beautiful website is still under Construction',
+    tags: ['Syncfusion', 'Reactjs', 'javaScript'],
+    seeLive: 'https://micro-app.netlify.app/',
+  },
+
+  {
+    id: 2,
     name: 'Restaurant-App',
     img: 'image/restoApp.png',
-    companyName: 'CANOPY',
+    companyName: 'FOOD FOR ALL',
     job: 'Front End Dev',
-    year: 2021,
+    year: 2023,
     description: 'This website App displays meals information from Sea food. It also allows users to submit their comments and likes for their favorite dish. All data is preserved thanks to the external MealsDB API, and involvement API.',
     tags: ['html', 'api', 'JS', 'Webpack'],
     seeLive: 'https://olipliche.github.io/JS-Capstone/dist/',
   },
 
   {
-    id: 2,
+    id: 3,
+    name: 'MARKET EXCHANGE',
+    img: 'image/exchange.JPG',
+    companyName: 'Exchange App',
+    job: 'Full Stack Dev',
+    year: 2023,
+    description: 'This App is an online exchange rate where users can see the actual market value. Kindly refresh the page when you open this beautiful App because it is deployed in Netlify, It runs slowly.',
+    tags: ['react', 'redux', 'api', 'JS', 'html5', 'css3'],
+    seeLive: 'https://paka-metrics-webapp.netlify.app/',
+  },
+
+  {
+    id: 5,
     name: 'Math magicians app',
     img: 'image/calc.png',
     companyName: 'CANOPY',
@@ -22,18 +46,6 @@ const store = [
     description: 'I developed a React application called the Math magicians app and UI of the calculator. This calculator app works at 100%. ',
     tags: ['React', 'Reactjs', 'javaScript'],
     seeLive: 'https://paka-math-magicians.netlify.app/',
-  },
-
-  {
-    id: 3,
-    name: 'space-travellers-hub',
-    img: 'image/space1.png',
-    companyName: 'Air-Space',
-    job: 'Full Stack Dev',
-    year: 2021,
-    description: 'Space Travelers Hub is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
-    tags: ['react', 'redux', 'api', 'JS'],
-    seeLive: 'https://space-travelers-hub45.herokuapp.com/',
   },
 
   {
@@ -76,7 +88,6 @@ store.forEach((item) => {
     ${(function technoUsed() {
     return item.tags.map((technology) => `<li><a href="#">${technology}</a></li>`).join('');
   }())}
-  
     </ul>
     <div class="see-project">
       <a class="btn" data-index-number=${item.id} href="">See Project</a>
